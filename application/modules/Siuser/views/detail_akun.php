@@ -59,7 +59,7 @@
             <a href="/edit-image/<?= $userData['uid']?>" class="mx-1 py-3 px-3 bg-sky-400 hover:bg-sky-500 text-white rounded">
                 <i class="fas fa-image"></i>
             </a>
-            <button class="py-3 px-3 mx-1 rounded text-white bg-red-400 hover:bg-red-500" onclick="handleModalShow('<?= $userData['uid']?>')">
+            <button class="py-3 px-3 mx-1 rounded text-white bg-red-400 hover:bg-red-500" onclick="handleModalShow('<?= $userDatagi['uid']?>')">
                 <i class="fas fa-trash"></i>
             </button>
         </div>
